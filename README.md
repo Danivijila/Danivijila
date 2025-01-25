@@ -1,16 +1,14 @@
-## Hi there 👋
+n1 = float(input("Enter the First Number: "))
+n2 = float(input("Enter the Second Number: "))
 
-<!--
-**Danivijila/Danivijila** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+print("{} + {} = ".format(n1, n2))
+print(n1 + n2)
 
-Here are some ideas to get you started:
+print("{} - {} = ".format(n1, n2))
+print(n1 - n2)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+print("{} * {} = ".format(n1, n2))
+print(n1 * n2)
+
+print("{} / {} = ".format(n1, n2))
+print(n1 / n2)
